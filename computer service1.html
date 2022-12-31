@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OK BHARAT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="supp_files/font-awesome.min.css">
+  <link rel="stylesheet" href="supp_files/bootstrap.min.css">
+  <script src="supp_files/jquery.min.js"></script>
+  <script src="supp_files/popper.min.js"></script>
+  <script src="supp_files/bootstrap.min.js"></script>
+  
+  <style>
+  
+  
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  
+  .button5 {background-color: #555555;} /* Black */
+  
+  <!--column code began here-->
+  * {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 3px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column2
+{
+height:70%;
+width: 90%;
+}
+  <!--column code ends here-->
+  </style>
+</head>
+<body>
+
+<!--website menu begin-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	  <img style="margin-top: -29px; height:80px;" src="image/logochn.png" alt="">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../homepage.html">Home</a></li>
+        <!--<li><a href="services.html">Services</a></li>-->
+		
+		<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="../services.html">IT Services(Computer)
+    <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a href="computer service1.html">Computer,laptop.networking,printer services</a></li>
+      <li><a href="#">Submenu 1-2</a></li>
+      <li><a href="#">Submenu 1-3</a></li> 
+    </ul></li>
+	
+    
+    <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="../services.html">Mobile Services
+    <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a href="Mobile Parts.html">Mobile Phone Display folder all Model</a></li>
+      <li><a href="#">Submenu 1-2</a></li>
+      <li><a href="#">Submenu 1-3</a></li> 
+    </ul></li>
+		<li><a href="../Properties.html">Properties Services </a></li>
+		<li><a href="../our-clients.html">Our Clients</a></li>
+		<li><a href="../enquiry.html">Enquiry</a></li>
+		<li><a href="../about-us.html">About Us</a></li>
+        <li><a href="../contact-us.html">Contact Us</a></li>
+      </ul>
+      <!---<ul class="nav navbar-nav navbar-right"> <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> </ul>--->
+	  
+    </div>
+  </div>
+</nav><!--website menu end-->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+	  <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img class="img-responsive" src="image/slide1.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Mobile Solution</h3>
+          <p>Your security our priority..</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img class="img-responsive" src="image/slide2.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Shaheen Bagh</h3>
+          <p>Okhla</p>
+        </div>      
+      </div>
+
+<div class="item">
+        <img class="img-responsive" src="image/slide3.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Shaheen Bagh II</h3>
+          <p>Okhla II</p>
+        </div>      
+      </div>
+
+	  
+	  <div class="item">
+        <img class="img-responsive" src="image/slide4.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Shaheen Bagh III</h3>
+          <p>Okhla III</p>
+        </div>      
+      </div>
+	   
+      <div class="item">
+        <img class="img-responsive" src="image/slide6.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>On Rent Office and Flats </h3>
+          <p>Properties</p>
+        </div>      
+      </div>
+
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container text-center">    
+  
+  <!--homepage content began here-->
+  <div class="bnr-left">
+						<div class="abt">
+							<h2><div class="alert alert-success"><strong>WELCOME TO OK BHARAT</strong></div></h2>
+							</div>
+							<p class="about-p"><b>OK BHARAT</b> is one of the esteemed IT and Security Solution Company in New Delhi, India. We specialize in providing various services like System Integration Services, Security System Solution, Computer Maintenance Service and Manpower Consultancy which are an essential requirement of any business unit. We offer quality and cost-effective Computer Services using latest technology to give the best solution for your business. Besides, we also offer Computer AMC(Annual Maintenance Charge), Computer/Laptop/Projector/Printer Rent Service, Networking, Security, Firewall, Biometrics, CCTV/DVR-Servillence, Web development, Digital Marketing,. </p>
+							<p class="about-p">We are engaged in providing the best Mobile Services in Delhi to help our clients gain an edge in the competitive market. We involve the use of advanced technology in the designing and installation to give a reliable system to your organization. </p></br>
+							<a href="about-us.html"><button type="button" class="btn btn-dark">Read more</button></a>
+							
+							<!--profile cards began here-->
+<h2><div class="alert alert-success"><strong>Our Mobile And Other Services/strong></div></h2>
+  <div class="row1">
+  <div class="column1" style="background-color:#aaa;">
+    <h4>Computer Reapir & Services</h4>
+  <img src="image/computer-repair.jpg" class="column2">
+    <p>We Offers Best Computer services for Home users, Public Sectors, Educational organizations, corporates and businesses at a reasonable price in Delhi.</p>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Laptop Repair & Services</h4>
+	<img src="image/laptop-repair.jpg" class="column2">
+    <p>The time span of the laptop repair and service entirely depends upon the kind of service availed.</p>
+  </div>
+  <div class="column1" style="background-color:#ccc;">
+    <h4>Networking Implementation</h4>
+	<img src="image/network-implementation.jpg" class="column2">
+    <p>such a wide variety of required skills needed to maintain business technologies and a highly competitive market for engineers, Systems Engineering.</p>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Server Services</h4>
+	<img src="image/server-implementation.jpg" class="column2">
+    <p>Server Implementation we analyze all hardware and software components, as well as the server and internal peripherals and software components.</p>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Firewall</h4>
+    <img src="image/firewall.jpg" class="column2">
+	<p>CHN IT SOLUTION has picked up extraordinary experience in Windows Server, AIX, Linux, HP and UX server, server configurations and complex networks.</p>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>Projector</h4>
+    <img src="image/projector.jpg" class="column2">
+	<p>Projector Repair & Services. Projector Repair & Services near me. EPSON Projector Repair & Services near me. Sony Projector Repair & Services near me.</p>
+  </div>
+  <div class="column1" style="background-color:#00C851;">
+    <h4>Printer</h4>
+    <img src="image/printer.jpg" class="column2">
+	<p>Computer Printer Repair & Services. Computer Printer Repair & Services near me. HP Computer Printer Repair & Services near me.</p>
+  </div>
+  <div class="column1" style="background-color:#33b5e5;">
+    <h4>Mobile Repair</h4>
+    <img src="image/mobile-repair.jpg" class="column2">
+	<p>We offer world class mobile phone repairing services for all branded smartphones & tablets, across India through our dedicated mobile phone repair service centers in Delhi</p>
+  </div>
+    <div class="column1" style="background-color:#CC0000;">
+    <h4>AMC Services</h4>
+	<img src="image/amc.jpg" class="column2">
+    <p>We provide the IT support as an Annual Maintenance Charge (AMC).</p>
+  </div>
+  <div class="column1" style="background-color:#FF8800;">
+    <h4>CCTV</h4>
+	<img src="image/cctv.jpg" class="column2">
+    <p>Closed-circuit television (CCTV), also known as video surveillance, is the use of video cameras.</p>
+  </div>
+  <div class="column1" style="background-color:#007E33;">
+    <h4>Antivirus</h4>
+	<img src="image/antivirus.jpg" class="column2">
+    <p>Online Premium Antivirus Support.</p>
+  </div>
+  <div class="column1" style="background-color:#0099CC;">
+    <h4>Cartridge Refilling</h4>
+	<img src="image/cartridge refilling.jpg" class="column2">
+    <p> We provide the cartridge refilling service and Sale / Purchase.</p>
+  </div></div>
+							<!--profilecards end here-->
+<!--our products code began here-->
+							<h2><div class="alert alert-success"><strong>Our Products</strong></div></h2>
+
+<div class="row1">
+  <div class="column1" style="background-color:#aaa;">
+    <h4>IT Parts & Devices</h4>
+		<img src="image/itdevices.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Mobile Parts & Accessories</h4>
+		<img src="image/mobileparts.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Computer UPS System</h4>
+		<img src="image/ups.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price 9540502858</button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>RAM Random Access Memory</h4>
+		<img src="image/ram.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Computer Desktop System</h4>
+		<img src="image/desktop_system.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>Laser Printer</h4>
+		<img src="image/laser-printer.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#00C851;">
+    <h4>Hard Disk Drive</h4>
+		<img src="image/hdd.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#33b5e5;">
+    <h4>Wifi Router</h4>
+		<img src="image/wifi-router.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+    <div class="column1" style="background-color:#CC0000;">
+    <h4>Keyboard</h4>
+		<img src="image/keyboard.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#FF8800;">
+    <h4>Mouse</h4>
+		<img src="image/mouse.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#007E33;">
+    <h4>Mother Board</h4>
+		<img src="image/motherboard.png" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#0099CC;">
+    <h4>SMPS</h4>
+		<img src="image/smps.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#aaa;">
+    <h4>Cat 6 Cable</h4>
+		<img src="image/cat6cable.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Switches</h4>
+		<img src="image/switches.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#ccc;">
+    <h4>Server</h4>
+		<img src="image/server.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Server Rack</h4>
+		<img src="image/rack.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+<!--our products code ends here-->
+							
+						</div>
+  <!--homepage content end here-->
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p><div> <!---footer code began here--->
+  <div class="container">
+			<div class="footer-top">
+				<div class="col-md-3 footer-left">
+					<h3>OK BHARAT</h3>
+					
+						<p style="text-align:justify;    color: black;font-size: 15px;">OK BHARAT is one of the esteemed IT and Security Solution Companies in Delhi, India. We specialize in providing various services like System Integration Services, Security System Solution, Computer Maintenance Service and Manpower Consultancy which are an essential requirement   <span style="color:red;"><a href="about-us.html">Read More</a></span>
+											 
+					
+				</p></div>
+				<div class="col-md-3 footer-left">
+					<h3>Quick Link</h3>
+					<ul>
+						<li><a href="index-2.html">Home</a></li>
+						<li><a href="about-us.html">About</a></li>
+						<li><a href="Products.html">Product</a></li>
+						<li><a href="Services.html">Service</a></li>
+						<li><a href="enquiry.html">Enquiry</a></li>					 					 
+						<li><a href="enquiry.html">Contact</a></li>					 					 
+					</ul>
+				</div>
+				<div class="col-md-3 footer-left">
+					<h3>Product &amp; Service</h3>
+					<ul>
+						<li><a href="product-page.html">Computer Mouse</a></li>
+						<li><a href="UPS%20System.html">UPS System</a></li>
+						<li><a href="Laser%20Printer.html">Laser Printer</a></li>
+						<li><a href="Networking%20Service.html">Networking Service</a></li>
+						<li><a href="Laptop%20AMC%20Service.html">AMC Services</a></li>
+						<li><a href="Laptop%20Rental%20Services.html">Rental Services</a></li>					 
+					</ul>
+				</div>
+				<div class="col-md-3 footer-left">
+					<h3>Contact Info</h3>
+					<span style="   color: black; font-weight: bold;">Address </span>C-105 Shaheen Bagh, Kalindi Kunj road New Delhi - 110025 - India</p>
+				
+				<p style="    color: black; font-size: 17px;"><span style="    color: black; font-weight: bold;">Mobile</span>(+91)9540502958</p>
+				<p style="    color: black; font-size: 17px; margin-up: 0px;"><span style="    color: black; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>(+91)9540502858</p>
+			
+				<p style="    color: black; font-size: 17px;"> <span style="     color: black;font-weight: bold;">Email</span>
+chncomputersolution@gmail.com </p>
+			
+				
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div> <!---footer code close here--->
+  </div></p>
+</footer>
+<p align="center" Style="color: #3c763d;"><strong>© 2016 OK BHART All Rights Reserved | Designed by Intzar Ali</strong></p>
+</body>
+</html>
+

@@ -1,0 +1,142 @@
+<div class="container-fluid">
+ </BR>
+
+ <div class="container-fluid">
+    <div class="row">
+<div class="col-md-12">
+      <!--div1 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <img class="card-img-top" src="image/mouse.png" alt="Card image" style="width:290px; height:390;">
+    <div class="card-body">
+      <h4 class="card-title">Computer Mouse</h4>
+      <p class="card-text">Ask for price</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div></div><!--div1 end-->
+	  
+	  
+      <!--div2 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <img class="card-img-top" src="image/cat6cable.jpg" alt="Card image" style="width:290px; height:390;">
+    <div class="card-body">
+      <h4 class="card-title">Cat 6 Cable</h4>
+      <p class="card-text">Ask for Price</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div></div><!--div2 end-->
+      <!--div3 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <img class="card-img-top" src="image/computer_ups.jpg" alt="Card image" style="width:290px; height:390;">
+    <div class="card-body">
+      <h4 class="card-title">Computer UPS System</h4>
+      <p class="card-text">Ask for Price</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div></div><!--div3 end-->
+
+<!--div4 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <img class="card-img-top" src="image/ram.jpg" alt="Card image" style="width:290px; height:390;">
+    <div class="card-body">
+      <h4 class="card-title">Computer Ram</h4>
+      <p class="card-text">Ask for Price</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div></div><!--div4 end-->
+
+<!--div5 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <img class="card-img-top" src="image/desktop_system.jpg" alt="Card image" style="width:290px; height:390;">
+    <div class="card-body">
+      <h4 class="card-title">Desktop System</h4>
+      <p class="card-text">Ask for price</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div></div><!--div5 end-->
+
+<!--div6 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <img class="card-img-top" src="image/laser-printer.jpg" alt="Card image" style="width:290px; height:390;">
+    <div class="card-body">
+      <h4 class="card-title">Laser Printer</h4>
+      <p class="card-text">Ask for Price</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div></div><!--div6 end-->
+
+<!--div7 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <img class="card-img-top" src="image/hard-disk.jpg" alt="Card image" style="width:290px; height:390;">
+    <div class="card-body">
+      <h4 class="card-title">Hard Disk</h4>
+      <p class="card-text">Ask for price</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div></div><!--div7 end-->
+
+<!--div8 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <img class="card-img-top" src="image/wifi-router.jpg" alt="Card image" style="width:290px; height:390;">
+    <div class="card-body">
+      <h4 class="card-title">Wi Fi Router</h4>
+      <p class="card-text">Ask for price</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div></div><!--div8 end-->
+
+<!--div9 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <img class="card-img-top" src="image/motherboard.png" alt="Card image" style="width:290px; height:390;">
+    <div class="card-body">
+      <h4 class="card-title">Mother Board</h4>
+      <p class="card-text">Ask for price</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div></div><!--div9 end-->
+
+    </div>
+    <br>
+	</div>
+</div>
+    <br>
+</div>
+
+
+							<!--div9 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <a href="#"><img class="card-img-top" src="image/AMCservice.jpg" alt="Card image" style="width:290px; height:390;"></a>
+    <div class="card-body">
+      <h4 class="card-title">LAPTOP AMC SERVICE</h4>
+      <p class="card-text">We are involved in rendering Laptop AMC Service to our most valued customers.Our services are extremely applauded in the market due to timely completion and consistency.</p>
+    </div>
+  </div>
+</div></div><!--div9 end-->
+
+<!--div9 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <a href="#"><img class="card-img-top" src="image/networkingservice.jpg" alt="Card image" style="width:290px; height:390;"></a>
+    <div class="card-body">
+      <h4 class="card-title">NETWORKING SERVICE</h4>
+      <p class="card-text">We are rendering Networking Service. These services are accomplished by expert’s team who has affluent industry proficiency and practice. To rendering this service in</p>
+    </div>
+  </div>
+</div></div><!--div9 end-->
+
+<!--div9 began--><div class="col-sm-4" style=""><div class="container">
+  <div class="card" style="width:300px; height:400px;">
+    <a href="#"><img class="card-img-top" src="image/laptoprentservice.jpg" alt="Card image" style="width:290px; height:390;"></a>
+    <div class="card-body">
+      <h4 class="card-title">LAPTOP RENTAL SERVICES</h4>
+      <p class="card-text">Our company is accomplished to render Laptop Rental Services. This service is rendered under the guidance of adroit personnel who have prosperous industry practice.</p>
+    </div>
+  </div>
+</div></div><!--div9 end-->

@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OK BHARAT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="supp_files/font-awesome.min.css">
+  <link rel="stylesheet" href="supp_files/bootstrap.min.css">
+  <script src="supp_files/jquery.min.js"></script>
+  <script src="supp_files/popper.min.js"></script>
+  <script src="supp_files/bootstrap.min.js"></script>
+  
+  <style>
+  
+  
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  
+  .button5 {background-color: #555555;} /* Black */
+  
+  <!--column code began here-->
+  * {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 3px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column2
+{
+height:70%;
+width: 90%;
+}
+  <!--column code ends here-->
+  </style>
+</head>
+<body>
+
+<!--website menu begin-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	  <img style="margin-top: -29px; height:80px;" src="image/logochn.png" alt="">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../homepage.html">Home</a></li>
+        <!--<li><a href="services.html">Services</a></li>-->
+
+		
+		<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="../services.html">IT Services(Computer)
+    <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a href="computer service1.html">Computer,laptop.networking,printer services</a></li>
+      <li><a href="#">Submenu 1-2</a></li>
+      <li><a href="#">Submenu 1-3</a></li> 
+    </ul></li>
+	
+    
+    <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="../services.html">Mobile Services
+    <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a href="Mobile Parts.html">Mobile Phone Display folder all Model</a></li>
+      <li><a href="#">Submenu 1-2</a></li>
+      <li><a href="#">Submenu 1-3</a></li> 
+    </ul></li>
+		<li><a href="../Properties.html">Properties Services </a></li>
+		<li><a href="../our-clients.html">Our Clients</a></li>
+		<li><a href="../enquiry.html">Enquiry</a></li>
+		<li><a href="../about-us.html">About Us</a></li>
+        <li><a href="../contact-us.html">Contact Us</a></li>
+      </ul>
+      <!---<ul class="nav navbar-nav navbar-right"> <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> </ul>--->
+	  
+    </div>
+  </div>
+</nav><!--website menu end-->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+	  <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img class="img-responsive" src="image/slide1.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Mobile Solution</h3>
+          <p>Your security our priority..</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img class="img-responsive" src="image/slide2.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Shaheen Bagh</h3>
+          <p>Okhla</p>
+        </div>      
+      </div>
+
+<div class="item">
+        <img class="img-responsive" src="image/slide3.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Shaheen Bagh II</h3>
+          <p>Okhla II</p>
+        </div>      
+      </div>
+
+	  
+	  <div class="item">
+        <img class="img-responsive" src="image/slide4.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Shaheen Bagh III</h3>
+          <p>Okhla III</p>
+        </div>      
+      </div>
+	   
+      <div class="item">
+        <img class="img-responsive" src="image/slide6.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>On Rent Office and Flats </h3>
+          <p>Properties</p>
+        </div>      
+      </div>
+
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container text-center">    
+  
+  <!--homepage content began here-->
+  <div class="bnr-left">
+						<div class="abt">
+							<h2><div class="alert alert-success"><strong>WELCOME TO OK BHARAT</strong></div></h2>
+							</div>
+							<p class="about-p"><b>OK BHARAT</b> is one of the esteemed IT and Security Solution Company in New Delhi, India. We specialize in providing various services like System Integration Services, Security System Solution, Computer Maintenance Service and Manpower Consultancy which are an essential requirement of any business unit. We offer quality and cost-effective Computer Services using latest technology to give the best solution for your business. Besides, we also offer Computer AMC(Annual Maintenance Charge), Computer/Laptop/Projector/Printer Rent Service, Networking, Security, Firewall, Biometrics, CCTV/DVR-Servillence, Web development, Digital Marketing,. </p>
+							<p class="about-p">We are engaged in providing the best Mobile Services in Delhi to help our clients gain an edge in the competitive market. We involve the use of advanced technology in the designing and installation to give a reliable system to your organization. </p></br>
+							<a href="about-us.html"><button type="button" class="btn btn-dark">Read more</button></a>
+							
+							<!--profile cards began here-->
+<h2><div class="alert alert-success"><strong>Our Mobile And Other Services/strong></div></h2>
+<div class="row1">
+  <div class="column1" style="background-color:#aaa;">
+    <h4>Mobile Reapir & Services</h4>
+  <img src="image/mobile repair.jpg" class="column2">
+    <p>We Offers Best Mobile services for Home users, Public Sectors, Educational organizations, corporates and businesses at a reasonable price in Delhi.</p>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Mobile software services</h4>
+	<img src="image/mobile-software.png" class="column2">
+    <p>The time span of the Mobile repair and service entirely depends upon the kind of service availed.</p>
+  </div>
+  <div class="column1" style="background-color:#ccc;">
+    <h4>Mobile spare parts Services</h4>
+	<img src="image/mobile-spair-parts.JPEG" class="column2">
+    <p>such a wide variety of required skills needed to maintain business technologies and a highly competitive market for engineers, Systems Engineering.</p>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Server Services</h4>
+	<img src="image/server-implementation.jpg" class="column2">
+    <p>Server Implementation we analyze all hardware and software components, as well as the server and internal peripherals and software components.</p>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Firewall</h4>
+    <img src="image/firewall.jpg" class="column2">
+	<p>OK BHARAT has picked up extraordinary experience in Windows Server, AIX, Linux, HP and UX server, server configurations and complex networks.</p>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>Projector</h4>
+    <img src="image/projector.jpg" class="column2">
+	<p>Projector Repair & Services. Projector Repair & Services near me. EPSON Projector Repair & Services near me. Sony Projector Repair & Services near me.</p>
+  </div>
+  <div class="column1" style="background-color:#00C851;">
+    <h4>Printer</h4>
+    <img src="image/printer.jpg" class="column2">
+	<p>Computer Printer Repair & Services. Computer Printer Repair & Services near me. HP Computer Printer Repair & Services near me.</p>
+  </div>
+  <div class="column1" style="background-color:#33b5e5;">
+    <h4>Mobile Repair</h4>
+    <img src="image/mobile-repair.jpg" class="column2">
+	<p>We offer world class mobile phone repairing services for all branded smartphones & tablets, across India through our dedicated mobile phone repair service centers in Delhi</p>
+  </div>
+    <div class="column1" style="background-color:#CC0000;">
+    <h4>AMC Services</h4>
+	<img src="image/amc.jpg" class="column2">
+    <p>We provide the IT support as an Annual Maintenance Charge (AMC).</p>
+  </div>
+  <div class="column1" style="background-color:#FF8800;">
+    <h4>CCTV</h4>
+	<img src="image/cctv.jpg" class="column2">
+    <p>Closed-circuit television (CCTV), also known as video surveillance, is the use of video cameras.</p>
+  </div>
+  <div class="column1" style="background-color:#007E33;">
+    <h4>Antivirus</h4>
+	<img src="image/antivirus.jpg" class="column2">
+    <p>Online Premium Antivirus Support.</p>
+  </div>
+  <div class="column1" style="background-color:#0099CC;">
+    <h4>Cartridge Refilling</h4>
+	<img src="image/cartridge refilling.jpg" class="column2">
+    <p> We provide the cartridge refilling service and Sale / Purchase.</p>
+  </div></div>
+							<!--profilecards end here-->
+<!--our products code began here-->
+							<h2><div class="alert alert-success"><strong>Mobile Phone Spare Parts(Oppo A Series,Display Folder)</strong></div></h2>
+
+<div class="row1">
+  <div class="column1" style="background-color:#aaa;">
+    <h4>IT Parts & Devices</h4>
+		<img src="image/itdevices.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Mobile Parts & Accessories</h4>
+		<img src="image/mobileparts.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Oppo A1K</h4>
+		<img src="image/APPO 1K.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1100 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Oppo A3S</h4>
+		<img src="image/Oppo A3S.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Oppo A5</h4>
+		<img src="image/OPPO A5.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Oppo A5S</h4>
+		<img src="image/Oppo A5S.JPG" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>A5 2020</h4>
+		<img src="image/A5 2020.JPG" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Oppo A7</h4>
+		<img src="image/OPPO A7.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Oppo A9 2020</h4>
+		<img src="image/Oppo A9 2020.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500</button></a>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>Oppo A12</h4>
+		<img src="image/Oppo A12.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500</button></a>
+  </div>
+  <div class="column1" style="background-color:#00C851;">
+    <h4>Oppo A15</h4>
+		<img src="image/Oppo A15.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1650</button></a>
+  </div>
+  <div class="column1" style="background-color:#33b5e5;">
+    <h4>Oppo A33</h4>
+		<img src="image/Oppo A33.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 750</button></a>
+  </div>
+    <div class="column1" style="background-color:#CC0000;">
+    <h4>Oppo A37</h4>
+		<img src="image/Oppo A37.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 850</button></a>
+  </div>
+  <div class="column1" style="background-color:#FF8800;">
+    <h4>Oppo A52</h4>
+		<img src="image/Oppo A52.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1600</button></a>
+  </div>
+  <div class="column1" style="background-color:#007E33;">
+    <h4>Oppo A53</h4>
+		<img src="image/Oppo A53.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1600</button></a>
+  </div>
+  <div class="column1" style="background-color:#0099CC;">
+    <h4>Oppo A54</h4>
+		<img src="image/Oppo A54.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2000</button></a>
+  </div>
+  <div class="column1" style="background-color:#aaa;">
+    <h4>Oppo A57</h4>
+		<img src="image/Oppo A57.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 950</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Oppo A71</h4>
+		<img src="image/Oppo A71.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 900</button></a>
+  </div>
+  <div class="column1" style="background-color:#ccc;">
+    <h4>Oppo A83</h4>
+		<img src="image/Oppo A83.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1450</button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Server Rack</h4>
+		<img src="image/rack.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div></div>
+  <!--profilecards end here-->
+<!--our products code began here-->
+							<h2><div class="alert alert-success"><strong> Oppo F Series,Display Folder</strong></div></h2>
+  
+              <div class="row1">
+  <div class="column1" style="background-color:#aaa;">
+    <h4>Oppo F1S Display/Combo Folder/LCD/Touch Screen</h4>
+		<img src="image/Oppo F1s.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark"> Price 950</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Oppo F3</h4>
+		<img src="oppo image/Oppo F3.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1250</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>OPPO F5 </h4>
+		<img src="oppo image/Oppo F5.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1400 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Oppo F7</h4>
+		<img src="oppo image/Oppo F7.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>Oppo F9 (F9 Pro)</h4>
+		<img src="oppo image/Oppo F9 (F9 Pro).jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Oppo F10</h4>
+		<img src="oppo image/Oppo F10.JPG" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 950 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Oppo F11</h4>
+		<img src="oppo image/Oppo F11.JPG" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1450 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Oppo F11 Pro</h4>
+		<img src="oppo image/Oppo F11 Pro.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1600 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>OPPO F15</h4>
+		<img src="oppo image/OPPO F15.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2100</button></a>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>OPPO F17</h4>
+		<img src="oppo image/OPPO F17.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2100</button></a>
+  </div>
+  <div class="column1" style="background-color:#00C851;">
+    <h4>Oppo F19,F19 Pro</h4>
+		<img src="oppo image/Oppo F19 Pro.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2200</button></a>
+  </div>
+  <div class="column1" style="background-color:#33b5e5;">
+    <h4>Oppo </h4>
+		<img src="image/Oppo A33.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">No avaiable </button></a>
+  </div></div>
+  <!--profilecards end here-->
+<!--our products code began here-->
+							<h2><div class="alert alert-success"><strong> Oppo Mix Series,Display Folder</strong></div></h2>
+    <div class="column1" style="background-color:#CC0000;">
+    <h4>Oppo K1</h4>
+		<img src="oppo image/Oppo K1.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1900</button></a>
+  </div>
+  <div class="column1" style="background-color:#FF8800;">
+    <h4>Oppo K3</h4>
+		<img src="oppo image/Oppo K3.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2100</button></a>
+  </div>
+  <div class="column1" style="background-color:#007E33;">
+    <h4>Oppo Realme Narzo 20</h4>
+		<img src="oppo image/Realme Narzo 20.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1650</button></a>
+  </div>
+  <div class="column1" style="background-color:#0099CC;">
+    <h4>Realme Narzo 30</h4>
+		<img src="oppo image/Realme Narzo 30.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1650</button></a>
+  </div>
+  <div class="column1" style="background-color:#aaa;">
+    <h4>OPPO Realme Narzo 30A</h4>
+		<img src="oppo image/Realme Narzo 30A.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1650</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Oppo Neo 5 (2015) </h4>
+		<img src="oppo image/Oppo Neo 5 (2015).jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 750</button></a>
+  </div>
+  <div class="column1" style="background-color:#ccc;">
+    <h4>Oppo Reno2 F</h4>
+		<img src="oppo image/Oppo Reno2 F.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2000</button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Oppo Reno2 Z</h4>
+		<img src="oppo image/Oppo Reno2 Z.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2100</button></a>
+  </div></div>
+    <!--profilecards end here-->
+<!--our products code began here-->
+							<h2><div class="alert alert-success"><strong> Oppo Realme,Display Folder</strong></div></h2>
+              <div class="row1">
+  <div class="column1" style="background-color:#aaa;">
+    <h4>OPPO REALME 2</h4>
+		<img src="oppo image/OPPO REALME 2.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark"> Price 1550</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>OPPO REALME 3</h4>
+		<img src="oppo image/OPPO REALME 3.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>OPPO REALME 3 PRO </h4>
+		<img src="oppo image/OPPO REALME 3 PRO.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1600 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>OPPO REALME 5 </h4>
+		<img src="oppo image/OPPO REALME 5.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>OPPO REALME 5 PRO</h4>
+		<img src="oppo image/OPPO REALME 5 PRO.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1600 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>OPPO REALME 6</h4>
+		<img src="oppo image/OPPO REALME 6.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1600 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>OPPO REALME C2</h4>
+		<img src="oppo image/OPPO REALME C2.JPG" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1100 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>OPPO RELME C3 </h4>
+		<img src="oppo image/OPPO RELME C3.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Realme C11</h4>
+		<img src="oppo image/Realme C11.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1650</button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Realme C12</h4>
+		<img src="oppo image/Realme C12.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1650</button></a>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>Realme C25</h4>
+		<img src="oppo image/Realme C25.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1700</button></a>
+  </div>
+  <div class="column1" style="background-color:#00C851;">
+    <h4>Realme XT</h4>
+		<img src="oppo image/Realme XT.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2100</button></a>
+ </div>
+  <div class="column1" style="background-color:#33b5e5;">
+    <h4>realm e X2</h4>
+		<img src="OPPO image/realme X2.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark"> 2100 </button></a>
+  </div>
+    <div class="column1" style="background-color:#CC0000;">
+    <h4>Oppo Realme X</h4>
+		<img src="oppo image/Oppo Realme X.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2200</button></a>
+  </div>
+  <div class="column1" style="background-color:#FF8800;">
+    <h4>Realme U1</h4>
+		<img src="oppo image/Realme U1.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550</button></a>
+  </div>
+  <div class="column1" style="background-color:#007E33;">
+    <h4>Oppo Realme Narzo 20</h4>
+		<img src="oppo image/Realme Narzo 20.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1650</button></a>
+  </div>
+  <div class="column1" style="background-color:#0099CC;">
+    <h4>Realme Narzo 30</h4>
+		<img src="oppo image/Realme Narzo 30.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1650</button></a>
+  </div>
+  <div class="column1" style="background-color:#aaa;">
+    <h4>OPPO Realme Narzo 30A</h4>
+		<img src="oppo image/Realme Narzo 30A.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1650</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Oppo Neo 5 (2015) </h4>
+		<img src="oppo image/Oppo Neo 5 (2015).jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 750</button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Server Rack</h4>
+		<img src="image/rack.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div></div>
+  <!--profilecards end here-->
+<!--our products code began here-->
+							<h2><div class="alert alert-success"><strong> Vivo Series,Display Folder</strong></div></h2>
+  
+              <div class="row1">
+  <div class="column1" style="background-color:#aaa;">
+    <h4>Vivo S1 Vivo/h4>
+		<img src="oppo image/Vivo S1 Vivo.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark"> Price 1880</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Vivo S1 Pro</h4>
+		<img src="oppo image/Vivo S1 Pro.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1880</button></a>
+    </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Vivo V3 </h4>
+		<img src="oppo image/Vivo V3.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 800</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Vivo V5</h4>
+		<img src="oppo image/Vivo V5.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 980</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Vivo V5S</h4>
+		<img src="oppo image/Vivo V5S.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 980</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Vivo V5 Plus</h4>
+		<img src="oppo image/Vivo V5 Plus.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Vivo V7</h4>
+		<img src="oppo image/Vivo V7.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1400</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Vivo V7 Plus</h4>
+		<img src="oppo image/Vivo V7 Plus.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500</button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Vivo V9</h4>
+		<img src="oppo image/Vivo V9.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>vivo V11 vivo 1806</h4>
+		<img src="oppo image/vivo V11 vivo 1806.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1450 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Vivo V11i </h4>
+		<img src="oppo image/Vivo V11i.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1450 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>Vivo V11 Pro</h4>
+		<img src="oppo image/Vivo V11 Pro.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1850 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>Vivo V15</h4>
+		<img src="oppo image/Vivo V15.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1600 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>Vivo V15 Pro vivo 1818 </h4>
+		<img src="oppo image/Vivo V15 Pro vivo 1818.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2050 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>Vivo V17</h4>
+		<img src="oppo image/Vivo V17.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2200 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Vivo V20 V2025, V2024</h4>
+		<img src="oppo image/Vivo V20 V2025, V2024.JPG" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask For Price </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Vivo X21 </h4>
+		<img src="oppo image/Vivo X21.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price Ask for price </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Vivo Y12</h4>
+		<img src="oppo image/Vivo Y12.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1530</button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Vivo Y12s</h4>
+		<img src="oppo image/Vivo Y12s.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550</button></a>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>Vivo Y15</h4>
+		<img src="oppo image/Vivo Y15.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1530</button></a>
+  </div>
+  <div class="column1" style="background-color:#00C851;">
+    <h4>Vivo Y17</h4>
+		<img src="oppo image/Vivo Y17.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550</button></a>
+ </div>
+  <div class="column1" style="background-color:#33b5e5;">
+    <h4>Vivo Y19</h4>
+		<img src="OPPO image/Vivo Y19.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark"> 1550 </button></a>
+  </div>
+    <div class="column1" style="background-color:#CC0000;">
+    <h4>Vivo Y20 2020</h4>
+		<img src="oppo image/Vivo Y20 2020.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550</button></a>
+  </div>
+  <div class="column1" style="background-color:#FF8800;">
+    <h4>Y20i vivo 2027, V2027</h4>
+		<img src="oppo image/Y20i vivo 2027, V2027.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550</button></a>
+  </div>
+  <div class="column1" style="background-color:#007E33;">
+    <h4>Vivo Y20s</h4>
+		<img src="oppo image/Vivo Y20s.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550</button></a>
+  </div>
+  <div class="column1" style="background-color:#0099CC;">
+    <h4>Vivo Y21 </h4>
+		<img src="oppo image/Vivo Y21.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550</button></a>
+  </div>
+  <div class="column1" style="background-color:#aaa;">
+    <h4>vivo Y30</h4>
+		<img src="oppo image/vivo Y30.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1650</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Y31 New (2021) V2036 </h4>
+		<img src="oppo image/Y31 (2021) V2036.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1700</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Vivo Y35</h4>
+		<img src="oppo image/Vivo Y35.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1600</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Vivo Y50 2020  </h4>
+		<img src="oppo image/Vivo Y50 2020.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1600 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>vivo Y51 (2020) V2030 </h4>
+		<img src="oppo image/vivo Y51 (2020) V2030.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1700 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>VIVO Y53</h4>
+		<img src="oppo image/VIVO Y53.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 850 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Vivo Y-55 </h4>
+		<img src="oppo image/Vivo Y-55.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 850 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>VIVO Y66 </h4>
+		<img src="oppo image/VIVO Y66.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 980 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4></h4>Vivo Y69 </h4>
+		<img src="oppo image/Vivo Y69.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 980 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>Vivo Y71</h4>
+		<img src="oppo image/Vivo Y71.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>VIVO Y81</h4>
+		<img src="oppo image/VIVO Y81.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Vivo Y83</h4>
+		<img src="oppo image/Vivo Y83.JPG" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Vivo Y85</h4>
+		<img src="oppo image/Vivo Y85.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Y90 vivo 1908</h4>
+		<img src="oppo image/Y90 vivo 1908.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1350</button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Vivo Y91</h4>
+		<img src="oppo image/Vivo Y91.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1350</button></a>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>Vivo Y93</h4>
+		<img src="oppo image/Vivo Y93.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1350</button></a>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>Vivo Y95</h4>
+		<img src="oppo image/Vivo Y95.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1350</button></a>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>Vivo Z1 Pro</h4>
+		<img src="oppo image/Vivo Z1 Pro.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1550</button></a>
+  </div></div>
+  <!--profilecards end here-->
+<!--our products code began here-->
+							<h2><div class="alert alert-success"><strong> Mi Series,Display Folder</strong></div></h2>
+  
+              <div class="row1">
+              </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>MI Note 5</h4>
+		<img src="oppo image/MI Note 5.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500</button></a>
+    </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Redmi Mi 6 Pro </h4>
+		<img src="oppo image/Redmi Mi 6 Pro.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Xiaomi Mi 8</h4>
+		<img src="oppo image/Xiaomi Mi 8.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Xiaomi Mi 8 Pro</h4>
+		<img src="oppo image/Xiaomi Mi 8 Pro.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 980</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Xiaomi Redmi 8A Dual M2001C3K3I</h4>
+		<img src="oppo image/Xiaomi Redmi 8A Dual M2001C3K3I.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Xiaomi Redmi 9A</h4>
+		<img src="oppo image/Xiaomi Redmi 9A.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1480</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Redmi Mi 9i</h4>
+		<img src="oppo image/Redmi Mi 9i.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1480</button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Xiaomi Redmi 9C M2006C3MG</h4>
+		<img src="oppo image/Xiaomi Redmi 9C M2006C3MG.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1480 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Xiaomi Mi 10</h4>
+		<img src="oppo image/Xiaomi Mi 10.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Xiaomi Mi A3  </h4>
+		<img src="oppo image/Xiaomi Mi A3.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1700 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>Xiaomi Redmi K20 </h4>
+		<img src="oppo image/Xiaomi Redmi K20.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>Xiaomi Redmi K20 Pro</h4>
+		<img src="oppo image/Xiaomi Redmi K20 Pro.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>Redmi Note 3 </h4>
+		<img src="oppo image/Redmi Note 3.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 930 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>MI Note 4</h4>
+		<img src="oppo image/MI Note 4.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 900 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Xiaomi MI Note 5</h4>
+		<img src="oppo image/Xiaomi MI Note 5.JPG" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1400 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Mi Note 5 Pro </h4>
+		<img src="oppo image/Mi Note 5 Pro.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1450 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Redmi Note 7 </h4>
+		<img src="oppo image/Redmi Note 7.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1450</button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Xiaomi Redmi Note 9 Note9</h4>
+		<img src="oppo image/Xiaomi Redmi Note 9 Note9.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark"> Ask for Price </button></a>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>Redmi Note 9 Pro</h4>
+		<img src="oppo image/Redmi Note 9 Pro.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#00C851;">
+    <h4>Xiaomi Poco X2</h4>
+		<img src="oppo image/Ask for Pric.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Pric</button></a>
+ </div>
+  <div class="column1" style="background-color:#33b5e5;">
+    <h4>Redmi K20</h4>
+		<img src="OPPO image/Redmi K20.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark"> Ask for Price </button></a>
+  </div>
+    <div class="column1" style="background-color:#CC0000;">
+    <h4>Redmi K20 Pro</h4>
+		<img src="oppo image/Redmi K20 Pro.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Price</button></a>
+  </div>
+  <div class="column1" style="background-color:#00C851;">
+    <h4>Xiaomi Redmi Y2 Redmi Y2</h4>
+		<img src="oppo image/Xiaomi Redmi Y2 Redmi Y2.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for Pric</button></a>
+ </div>
+  <div class="column1" style="background-color:#33b5e5;">
+    <h4>Redmi Y1</h4>
+		<img src="OPPO image/Redmi Y1.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark"> Ask for Price </button></a>
+  </div><
+
+ <!--profilecards end here-->
+<!--our products code began here-->
+							<h2><div class="alert alert-success"><strong> Samsung Series,Display Folder</strong></div></h2>
+  
+              <div class="row1">
+              </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Samsung Galaxy A01 Core </h4>
+		<img src="oppo image/Samsung Galaxy M01.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1700 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Samsung Galaxy A2 Core SM-A260F/DS A260G 5.0" </h4>
+		<img src="oppo image/Samsung Galaxy A2.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1400 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Samsung Galaxy A7 (2018)</h4>
+		<img src="oppo image/Samsung Galaxy A7 (2018).jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1400 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4></h4>Samsung Galaxy A12</h4>
+		<img src="oppo image/Samsung Galaxy A12.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1800 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>Samsung Galaxy A20s</h4>
+		<img src="oppo image/Samsung Galaxy A20s.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ddd;">
+    <h4>SAMSUNG GALAXY A30S</h4>
+		<img src="oppo image/SAMSUNG GALAXY A30S.JPG" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1850 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>SAMSUNG GLAXY A30 DISPLAY COMBO </h4>
+		<img src="oppo image/SAMSUNG GLAXY A30 DISPLAY COMBO.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1800 </button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>SAMSUNG GALAXY A50 DISPLAY COMBO</h4>
+		<img src="oppo image/SAMSUNG GALAXY A50 DISPLAY COMBO.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1800</button></a>
+  </div>
+  <div class="column1" style="background-color:#ff4444;">
+    <h4>Samsung Galaxy A50s </h4>
+		<img src="oppo image/Samsung Galaxy A50s.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1800</button></a>
+  </div>
+  <div class="column1" style="background-color:#ffbb33;">
+    <h4>Samsung Galaxy A60</h4>
+		<img src="oppo image/Samsung Galaxy A60.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2100</button></a>
+  </div>
+  <div class="column1" style="background-color:#00C851;">
+    <h4>SAMSUNG GALAXY A70</h4>
+		<img src="oppo image/SAMSUNG GALAXY A70.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 2000</button></a>
+ </div>
+  <div class="column1" style="background-color:#33b5e5;">
+    <h4>Samsung Galaxy C5</h4>
+		<img src="OPPO image/Samsung Galaxy C5.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark"> 900 </button></a>
+  </div>
+    <div class="column1" style="background-color:#33b5e5;">
+    <h4>Samsung Galaxy F41</h4>
+		<img src="oppo image/Samsung Galaxy F41.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1850</button></a>
+  </div>
+  <div class="column1" style="background-color:#FF8800;">
+    <h4>Samsung Galaxy J2 Core J260</h4>
+		<img src="oppo image/Samsung Galaxy J2 Core J260.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1400</button></a>
+  </div>
+  <div class="column1" style="background-color:#007E33;">
+    <h4>Samsung J2 Core</h4>
+		<img src="oppo image/Samsung J2 Core.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1400</button></a>
+  </div>
+  <div class="column1" style="background-color:#0099CC;">
+    <h4>Samsung J5 2015</h4>
+		<img src="oppo image/Samsung J5.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 850</button></a>
+  </div>
+  <div class="column1" style="background-color:#aaa;">
+    <h4>Samsung j6 Glass LCD</h4>
+		<img src="oppo image/Samsung j6 LCD.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1400</button></a>
+  </div>
+  <div class="column1" style="background-color:#aaa;">
+    <h4>Samsung Galaxy M01 - White (display glass combo folder)</h4>
+		<img src="oppo image/Samsung Galaxy M01.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1150</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Samsung Galaxy M01 Core </h4>
+		<img src="oppo image/Samsung Galaxy M01 Core.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1700</button></a>
+</div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Samsung Galaxy M02 </h4>
+		<img src="oppo image/Samsung Galaxy M02.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1800</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Samsung Galaxy M11 SM-M115F, SM-M115F </h4>
+		<img src="oppo image/Samsung Galaxy M11 SM-M115F, SM-M115F.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500</button></a>
+    </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Samsung Galaxy M20s LCD Display With Touchscreen Combo Folder</h4>
+		<img src="oppo image/Samsung Galaxy M20s.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1500</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Samsung Galaxy M30 LCD Screen </h4>
+		<img src="oppo image/Samsung Galaxy M30 LCD Screen.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1880</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>SAMSUNG GALAXY M30S </h4>
+		<img src="oppo image/SAMSUNG GALAXY M30S.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1850</button></a>
+  </div>
+ <!--profilecards end here-->
+<!--our products code began here-->
+							<h2><div class="alert alert-success"><strong>(Apple) Iphone Display Folder</strong></div></h2>
+  
+              <div class="row1">
+              </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>LCD with Touch Screen for Apple iPhone 4 - Black (display glass combo folder) </h4>
+		<img src="oppo image/Apple iPhone 4.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Ask for price </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>
+LCD with Touch Screen for Apple iPhone 4S - Black (Display Glass Combo Folder) </h4>
+		<img src="oppo image/Apple iPhone 4S.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1700</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>LCD with Touch Screen for Apple iPhone 5 - (display glass combo folder)</h4>
+		<img src="oppo image/Apple iPhone 5.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 850 </button></a>
+</div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>LCD with Touch Screen for Apple iPhone 5s - (display glass combo folder))</h4>
+		<img src="oppo image/Apple iPhone 5 S.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 850 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>	
+APPLE IPHONE 6 DISPLAY COMBO</h4>
+		<img src="oppo image/APPLE IPHONE 6.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 950</button></a>
+    </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>LCD with Touch Screen for Apple iPhone 6S (Display Glass Combo Folder)</h4>
+		<img src="oppo image/Apple iPhone 6S.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1150</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>0RIGINAL Glass LCD Folder for Apple iPhone 6 Plus</h4>
+		<img src="oppo image/Apple iPhone 6 Plus.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1250 </button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Iphone 6S and 6S Plus Mobile LCD Folder, Screen Size: 4.7 Inch</h4>
+		<img src="oppo image/Iphone 6S and 6S Plus.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 950</button></a>
+    </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>LCD with Touch Screen for Apple iPhone 7 (display glass combo folder)</h4>
+		<img src="oppo image/Apple iPhone 7.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1050</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>Display with Touch Screen for Apple iPhone 7 Plus</h4>
+		<img src="oppo image/Apple iPhone 7 Plus.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1300</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>LCD with Touch Screen for Apple iPhone 8 Plus -(Display Glass Combo Folder) </h4>
+		<img src="oppo image/Apple iPhone 8 Plus.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price 1300</button></a>
+  </div>
+  <div class="column1" style="background-color:#bbb;">
+    <h4>APPLE </h4>
+		<img src="oppo image/Samsung Galaxy.jpg" class="column2" style="margin-bottom:10px;">
+		<a href="#"><button type="button" class="btn btn-dark">Price</button></a>
+</div>
+<!--our products code ends here-->
+							
+						</div>
+  <!--homepage content end here-->
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p><div> <!---footer code began here--->
+  <div class="container">
+			<div class="footer-top">
+				<div class="col-md-3 footer-left">
+					<h3>OK BHARAT</h3>
+					
+						<p style="text-align:justify;    color: black;font-size: 15px;">CHN is one of the esteemed IT and Security Solution Companies in Delhi, India. We specialize in providing various services like System Integration Services, Security System Solution, Computer Maintenance Service and Manpower Consultancy which are an essential requirement   <span style="color:red;"><a href="about-us.html">Read More</a></span>
+											 
+					
+				</p></div>
+				<div class="col-md-3 footer-left">
+					<h3>Quick Link</h3>
+					<ul>
+						<li><a href="index-2.html">Home</a></li>
+						<li><a href="about-us.html">About</a></li>
+						<li><a href="Products.html">Product</a></li>
+						<li><a href="Services.html">Service</a></li>
+						<li><a href="enquiry.html">Enquiry</a></li>					 					 
+						<li><a href="enquiry.html">Contact</a></li>					 					 
+					</ul>
+				</div>
+				<div class="col-md-3 footer-left">
+					<h3>Product &amp; Service</h3>
+					<ul>
+						<li><a href="product-page.html">Computer Mouse</a></li>
+						<li><a href="UPS%20System.html">UPS System</a></li>
+						<li><a href="Laser%20Printer.html">Laser Printer</a></li>
+						<li><a href="Networking%20Service.html">Networking Service</a></li>
+						<li><a href="Laptop%20AMC%20Service.html">AMC Services</a></li>
+						<li><a href="Laptop%20Rental%20Services.html">Rental Services</a></li>					 
+					</ul>
+				</div>
+				<div class="col-md-3 footer-left">
+					<h3>Contact Info</h3>
+					<span style="   color: black; font-weight: bold;">Address</span>C-105 Shaheen Bagh, Kalindi Kunj road New Delhi - 110025 - India</p>
+				
+				<p style="    color: black; font-size: 17px;"><span style="    color: black; font-weight: bold;">Mobile</span>(+91)9540502958</p>
+				<p style="    color: black; font-size: 17px; margin-up: 0px;"><span style="    color: black; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>(+91)9540502858</p>
+			
+				<p style="    color: black; font-size: 17px;"> <span style="     color: black;font-weight: bold;">Email</span>
+chncomputersolution@gmail.com </p>
+			
+				
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div> <!---footer code close here--->
+  </div></p>
+</footer>
+<p align="center" Style="color: #3c763d;"><strong>© 2016 OK BHARAT All Rights Reserved | Designed by Intzar Ali</strong></p>
+</body>
+</html>
+
